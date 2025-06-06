@@ -21,3 +21,16 @@ class Alumno:
 
     def get_notaMedia(self):
         return self.__notaMedia
+
+
+    @getNP.setter
+    def setNP(self, NP):
+        self.__NP = NP
+
+    @getNP.setter
+    def setNombreCompleto(self, nombreCompleto):
+        self.__nombreCompleto = nombreCompleto
+
+    @getNP.setter
+    def setNotaMedia(self, notaMedia):
+        self.__notaMedia = notaMedia
