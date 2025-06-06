@@ -11,6 +11,24 @@ class Alumno:
             __nombreCompleto= nombreCompleto
         if(notaMedia is not None and isinstance(notaMedia, float)):
             __notaMedia= notaMedia
-        
+
+
+
+    def getNP(self):
+        return self.__NP
+    def setNP(self, NP):
+        self.__NP = NP
+
+    def getNombreCompleto(self):
+        return self.getNombreCompleto
+    def setNombreCompleto(self, nombreCompleto):
+        self.__nombreCompleto = nombreCompleto
+
+    def getNotaMedia(self):
+        return self.__NP
+    def setNotaMedia(self, notaMedia):
+        self.__notaMedia = notaMedia
+
+
     def __str__(self):
         return f"({self.__NP},{self.__nombreCompleto}, {self.__notaMedia})"
