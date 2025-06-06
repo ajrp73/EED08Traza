@@ -13,3 +13,11 @@ class Alumno:
             __notaMedia= notaMedia
         
         
+    def get_NP(self):
+        return self.__NP
+
+    def get_nombreCompleto(self):
+        return self.__nombreCompleto
+
+    def get_notaMedia(self):
+        return self.__notaMedia
